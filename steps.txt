@@ -43,3 +43,9 @@ Run app.py
 #Note: If you didn't name your app as application, for example as app, use wsgi:app instead of wsgi, since application is the name to be picked up by default.
 
 Go to your browser again and read the Hello World! response
+
+
+###############################################################
+
+#To perform Test
+$python 
