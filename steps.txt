@@ -28,3 +28,11 @@ Install the dependencies under your virtualenv.
 
 (venv)user@host:~/Hello_App$ python app.py
 Go to your browser and enter the url to your server, appending the port number you specified in app.py. You should see Hello World! displayed
+
+
+##############################################################################################################################################
+
+Binding with Gunicorn
+Create the WSGI entrypoint ~/myproject/wsgi.py.
+
+(venv)user@host:~/Hello_App$ gunicorn --bind 0.0.0.0:8080 wsgi:app
