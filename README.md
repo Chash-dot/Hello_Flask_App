@@ -11,7 +11,7 @@ $ sudo yum install python3 (If not installed already)
 $ sudo yum install python-pip3
 
 # Install virtualenv from pip so that the python packages for the flask app will be in isolation.
-$ sudo pip install virtualenv
+$ sudo pip3 install virtualenv
 
 # Create the project & setup the virtual environment.
 # Create Project
