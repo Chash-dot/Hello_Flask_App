@@ -17,16 +17,16 @@ $ sudo pip install virtualenv
 # Create Project
 $ cd Hello_Flask_App
 
-# create virtualenv
+# Create virtualenv
 $ virtualenv venv
 
-# activate virtualenv
+# Activate virtualenv
 $ source ./venv/bin/activate
 
 Now the prompt should look like:
 (venv)user@host:~/Hello_Flask_App$
 
-Creating a Flask App: app.py
+#Creating a Flask App: app.py
 
 Install the dependencies under your virtualenv.
 (venv)user@host:~/Hello_Flask_App$ pip3 install gunicorn flask
@@ -38,7 +38,7 @@ Go to your browser and enter the url to your server, appending the port number y
 
 ##############################################################################################################################################
 
-Binding with Gunicorn
+#Binding with Gunicorn
 Create the WSGI entrypoint ~/Hello_Flask_App/wsgi.py.
 
 Run app.py
@@ -54,6 +54,6 @@ Go to your browser again and read the Hello World! response
 #To perform Test on the app.py using test_app.py
 $python test_app.py
 
-#The above will not retun anything of success
+#The above will not return anything of success
 
 
