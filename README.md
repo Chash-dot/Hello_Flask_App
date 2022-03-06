@@ -26,7 +26,7 @@ $ source ./venv/bin/activate
 Now the prompt should look like:
 (venv)user@host:~/Hello_Flask_App$
 
-#Creating a Flask App: app.py
+#**Creating a Flask App**: app.py
 
 Install the dependencies under your virtualenv.
 (venv)user@host:~/Hello_Flask_App$ pip3 install gunicorn flask
