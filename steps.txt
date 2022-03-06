@@ -47,5 +47,8 @@ Go to your browser again and read the Hello World! response
 
 ###############################################################
 
-#To perform Test
-$python 
+#To perform Test on the app.py using test_app.py
+$python test_app.py
+
+#The above will not retun anything of success
+
